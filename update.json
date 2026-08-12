@@ -1,6 +1,6 @@
 {
-  "versionCode": 4,
-  "versionName": "1.1.1",
-  "downloadUrl": "https://github.com/baich110/AnySearch/releases/download/v1.1.1/app-release.apk",
-  "updateLog": "## v1.1.1 更新内容\n\n### 新增\n- 隐私政策/用户协议弹窗\n- 搜索历史记录（100条）\n- 返回动态播报\n\n### 优化\n- 更新系统改用 GitHub Releases\n- 公告改用 Cloudflare KV\n- 富文本渲染引擎\n\n### 修复\n- 消除按钮重复朗读\n- 隐私弹窗不再闪烁"
+  "versionCode": 5,
+  "versionName": "1.2.0",
+  "downloadUrl": "https://github.com/baich110/AnySearch/releases/download/v1.2.0/app-release.apk",
+  "updateLog": "## v1.2.0 更新内容\n\n### 新增\n- 更新系统改用 jsDelivr CDN，国内访问飞快\n- 下载加速（jsDelivr CDN 直链）\n\n### 优化\n- 检查更新速度大幅提升\n- 公告渲染修复\n\n### 修复\n- 修复下载失败问题\n- 修复公告显示 JSON 原文的问题"
 }
