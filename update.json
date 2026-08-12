@@ -1,0 +1,6 @@
+{
+  "versionCode": 4,
+  "versionName": "1.1.1",
+  "downloadUrl": "https://github.com/baich110/AnySearch/releases/download/v1.1.1/app-release.apk",
+  "updateLog": "## v1.1.1 更新内容\n\n### 新增\n- 隐私政策/用户协议弹窗\n- 搜索历史记录（100条）\n- 返回动态播报\n\n### 优化\n- 更新系统改用 GitHub Releases\n- 公告改用 Cloudflare KV\n- 富文本渲染引擎\n\n### 修复\n- 消除按钮重复朗读\n- 隐私弹窗不再闪烁"
+}
