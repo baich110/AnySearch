@@ -41,7 +41,8 @@ jobs:
 
       - name: 编译 Release（混淆 + 资源压缩）
         env:
-          KEYSTORE_PATH: release.keystore
+          # 相对 app/ 目录，指向项目根目录的 keystore（与 build.gradle.kts 默认 ../release.keystore 一致）
+          KEYSTORE_PATH: ../release.keystore
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
